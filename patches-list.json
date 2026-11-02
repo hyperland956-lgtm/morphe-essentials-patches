@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "patches": [
     {
       "name": "Example Patch",
@@ -34,6 +34,14 @@
           ]
         }
       ],
+      "options": []
+    },
+    {
+      "name": "TV Compatibility",
+      "description": "Makes the app installable and launchable on Android TV by adding the leanback launcher entry, a TV banner and marking hardware features as optional.",
+      "default": false,
+      "category": null,
+      "compatiblePackages": null,
       "options": []
     }
   ]
